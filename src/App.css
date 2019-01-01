@@ -1,32 +1,293 @@
-.App {
+body {
+  background-color: rgb(1, 1, 78);
+}
+
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@font-face {
+  font-family: billabong;
+  src: url(./Images/Billabong.ttf);
+}
+
+main.mainPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainPage h1 {
   text-align: center;
+  color: white;
+  text-shadow: 1.75px 1.75px #338be6;
+  font-family: billabong;
+  font-size: 4rem;
+  font-weight: 300;
+  background-color: rgba(1, 1, 78, 0.6);
+  border-radius: 42%;
+  margin: 20px 175px 20px 175px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.inputBox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input {
+  border-radius: 5px;
+  outline-color: #003f56;
+}
+
+button {
+  border-radius: 5px;
+  margin-left: 5px;
+  outline: none;
+}
+
+.fa-map-pin {
+}
+
+img.map {
+  width: 95%;
+  height: 95%;
+  border: 1px solid white;
+  box-shadow: 0 0 10px white;
+  border-radius: 5px;
+}
+
+/* sign in page */
+
+main.loginPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginPage h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 1.75px 1.75px #338be6;
+  font-family: billabong;
+  font-size: 4rem;
+  font-weight: 300;
+  background-color: rgba(1, 1, 78, 0.3);
+  border-radius: 42%;
+  margin: 20px 175px 20px 175px;
+}
+
+.loginPage h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+div.login {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 200px;
+  padding: 10px 0 10px 0;
+  margin: 25px 10px 10px 10px;
+  background-color: rgba(1, 1, 78, 0.6);
+  border: 1.25px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+}
+
+.login img {
+  width: 70px;
+  border-radius: 50%;
+  margin-top: -45px;
+  margin-bottom: 10px;
+}
+
+.login input {
+  margin-top: 5px;
+  outline-color: #338be6;
+}
+
+.login button {
+  margin-top: 10px;
+  margin-left: 0;
+  width: 75px;
+  cursor: pointer;
+}
+
+div.logInOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.logInOptions label {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding-top: 10px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+label.logInOptions {
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logInOptions a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding-top: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+div.loginOr {
+  display: flex;
+  align-items: center;
+}
+
+.loginOr h4 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+div.loginOrLine {
+  height: 1px;
+  width: 55px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+button.googleLogIn {
+  color: white;
+  background-color: #3a88ed;
+  border: none;
+  font-size: 15px;
+  height: 25px;
+  width: 200px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+button.facebookLogIn {
+  color: white;
+  background-color: #395a94;
+  border: none;
+  font-size: 15px;
+  height: 25px;
+  width: 200px;
+  cursor: pointer;
+}
+
+/* Let's get started page */
+
+div.letsGetStarted {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.letsGetStarted h1 {
+  text-align: center;
+  color: black;
+  font-family: billabong;
+  font-size: 2.25rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.letsGetStarted h2 {
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* pin-popUp page */
+
+.pinPopUp {
+  display: flex;
+  flex-direction: column;
+  background-color: #eceae4;
+  width: 13rem;
+  align-items: center;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+img.photoAlbumPreview {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.pinPopUp button {
+  margin: 5px;
+}
+
+/* photo gallery page */
+
+main.photoGallery {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  border-radius: 5px;
+}
+
+.profileBar img {
+  width: 70px;
+  border-radius: 50%;
+  margin: 10px 0 0 10px;
+}
+
+.profileBar h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.photoGallery h4 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.profileBar button {
+  width: 8rem;
+}
+
+div.photoGallerySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+div.photosGalleryImages {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+  justify-content: center;
+}
+
+img.photoGalleryImage {
+  margin: 2px;
+  max-height: 100px;
+  max-width: 125px;
 }
