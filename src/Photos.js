@@ -17,7 +17,7 @@ class Photos extends Component {
         {/* <input type="file" /><input /> */}
         <main class="photoGallery">
           <div class="profileBar">
-            <img src={camera} alt="profile picture" />
+            <img src={camera} alt="profile" />
             <h4>Michelle Yenny</h4>
             <button>Create Album</button>
           </div>

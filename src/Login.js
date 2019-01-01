@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import camera from './images/camera.jpeg'
 
 class Login extends Component {
   render() {
@@ -8,7 +9,7 @@ class Login extends Component {
         <main class="loginPage">
           <h1>MyWanderland</h1>
           <div class="login">
-            <img src="./images/camera.jpeg" alt="profile picture" />
+            <img src={camera} alt="profile" />
             <input placeholder="Username" /> <input placeholder="Password" />
             <button>Log in</button>
             <div class="logInOptions">
