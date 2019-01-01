@@ -5,10 +5,10 @@ class Pinpopup extends Component {
   render() {
     return (
       <div>
-        <div class="pinPopUp">
+        <div className="pinPopUp">
           <p>Tampa, FL</p>
           <p>United States</p>
-          <img class="photoAlbumPreview" src={photo_album} alt="Album" />
+          <img className="photoAlbumPreview" src={photo_album} alt="Album" />
           <p>Create Album</p>
           <button>Upload Images</button>
         </div>

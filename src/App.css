@@ -64,15 +64,15 @@ img.map {
   border-radius: 5px;
 }
 
-/* sign in page */
+/* Log in page */
 
-main.loginPage {
+main.logInPage {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.loginPage h1 {
+.logInPage h1 {
   text-align: center;
   color: white;
   text-shadow: 1.75px 1.75px #338be6;
@@ -84,14 +84,7 @@ main.loginPage {
   margin: 20px 175px 20px 175px;
 }
 
-.loginPage h4 {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-div.login {
+div.logIn {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,19 +97,19 @@ div.login {
   border-radius: 10px;
 }
 
-.login img {
+.logIn img {
   width: 70px;
   border-radius: 50%;
   margin-top: -45px;
   margin-bottom: 10px;
 }
 
-.login input {
+.logIn input {
   margin-top: 5px;
   outline-color: #338be6;
 }
 
-.login button {
+.logIn button {
   margin-top: 10px;
   margin-left: 0;
   width: 75px;
@@ -152,17 +145,21 @@ label.logInOptions {
   cursor: pointer;
 }
 
-div.loginOr {
+div.logInOr {
   display: flex;
   align-items: center;
 }
 
-.loginOr h4 {
+.logInOr h4 {
   margin-left: 5px;
   margin-right: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
 }
 
-div.loginOrLine {
+div.logInOrLine {
   height: 1px;
   width: 55px;
   background-color: rgba(255, 255, 255, 0.6);
@@ -189,15 +186,69 @@ button.facebookLogIn {
   cursor: pointer;
 }
 
-/* Let's get started page */
+/* Sign up page */
 
-div.letsGetStarted {
+main.signUpPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signUpPage h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 1.75px 1.75px #338be6;
+  font-family: billabong;
+  font-size: 4rem;
+  font-weight: 300;
+  background-color: rgba(1, 1, 78, 0.3);
+  border-radius: 42%;
+  margin: 20px 175px 20px 175px;
+}
+
+div.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 10px 0 10px 0;
+  margin: 25px 10px 10px 10px;
+  background-color: rgba(1, 1, 78, 0.6);
+  border: 1.25px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+}
+
+.signUp img {
+  width: 70px;
+  border-radius: 50%;
+  margin-top: -45px;
+  margin-bottom: 10px;
+}
+
+.signUp input {
+  margin-top: 5px;
+  outline-color: #338be6;
+}
+
+.signUp button {
+  margin-top: 10px;
+  margin-left: 0;
+  width: 75px;
+  cursor: pointer;
+}
+
+/* Introduction */
+
+div.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
   border-radius: 5px;
 }
 
-.letsGetStarted h1 {
-  text-align: center;
+.introduction h1 {
   color: black;
   font-family: billabong;
   font-size: 2.25rem;
@@ -205,13 +256,10 @@ div.letsGetStarted {
   margin: 0;
 }
 
-.letsGetStarted h2 {
-  text-align: center;
-  color: black;
-  font-size: 1rem;
-  font-weight: 300;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+.introduction button {
+  margin: 10px;
+  width: 75px;
+  cursor: pointer;
 }
 
 /* pin-popUp page */

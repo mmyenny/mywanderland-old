@@ -7,15 +7,15 @@ class Map extends Component {
     return (
       <div>
         <canvas />
-        <main class="mainPage">
+        <main className="mainPage">
           <h1>MyWanderland</h1>
-          <div class="inputBox">
+          <div className="inputBox">
             <input placeholder="Enter City, State" />
             <button>
-              <i class="fas fa-map-pin" />
+              <i className="fas fa-map-pin" />
             </button>
           </div>
-          <img class="map" src={US_Map3} alt="US map" />
+          <img className="map" src={US_Map3} alt="US map" />
         </main>
       </div>
     )

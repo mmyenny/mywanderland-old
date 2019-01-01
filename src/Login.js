@@ -6,26 +6,26 @@ class Login extends Component {
     return (
       <div>
         <canvas />
-        <main class="loginPage">
+        <main className="logInPage">
           <h1>MyWanderland</h1>
-          <div class="login">
+          <div className="logIn">
             <img src={camera} alt="profile" />
             <input placeholder="Username" /> <input placeholder="Password" />
             <button>Log in</button>
-            <div class="logInOptions">
-              <label for="Remember me" class="logInOptions">
+            <div className="logInOptions">
+              <label for="Remember me" className="logInOptions">
                 <input id="Remember me" type="checkbox" /> Remember me
               </label>
               <a href="#">Sign up here</a>
             </div>
           </div>
-          <div class="loginOr">
-            <div class="loginOrLine" />
+          <div className="logInOr">
+            <div className="logInOrLine" />
             <h4>OR</h4>
-            <div class="loginOrLine" />
+            <div className="logInOrLine" />
           </div>
-          <button class="googleLogIn">Log in with Google</button>
-          <button class="facebookLogIn">Log in with Facebook</button>
+          <button className="googleLogIn">Log in with Google</button>
+          <button className="facebookLogIn">Log in with Facebook</button>
         </main>
       </div>
     )

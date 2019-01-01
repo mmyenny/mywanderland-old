@@ -15,26 +15,42 @@ class Photos extends Component {
       <div>
         <canvas />
         {/* <input type="file" /><input /> */}
-        <main class="photoGallery">
-          <div class="profileBar">
+        <main className="photoGallery">
+          <div className="profileBar">
             <img src={camera} alt="profile" />
             <h4>Michelle Yenny</h4>
             <button>Create Album</button>
           </div>
-          <div class="photoGallerySection">
+          <div className="photoGallerySection">
             <h4>Summer 2017</h4>
-            <div class="photosGalleryImages">
-              <img class="photoGalleryImage" src={beach1} alt="beach" />
-              <img class="photoGalleryImage" src={beach2} alt="beach" />
-              <img class="photoGalleryImage" src={beach3} alt="beach" />
-              <img class="photoGalleryImage" src={beach4} alt="beach" />
+            <div className="photosGalleryImages">
+              <img className="photoGalleryImage" src={beach1} alt="beach" />
+              <img className="photoGalleryImage" src={beach2} alt="beach" />
+              <img className="photoGalleryImage" src={beach3} alt="beach" />
+              <img className="photoGalleryImage" src={beach4} alt="beach" />
             </div>
             <h4>Fall 2014</h4>
-            <div class="photosGalleryImages">
-              <img class="photoGalleryImage" src={mountains1} alt="mountain" />
-              <img class="photoGalleryImage" src={mountains2} alt="mountain" />
-              <img class="photoGalleryImage" src={mountains3} alt="mountain" />
-              <img class="photoGalleryImage" src={mountains4} alt="mountain" />
+            <div className="photosGalleryImages">
+              <img
+                className="photoGalleryImage"
+                src={mountains1}
+                alt="mountain"
+              />
+              <img
+                className="photoGalleryImage"
+                src={mountains2}
+                alt="mountain"
+              />
+              <img
+                className="photoGalleryImage"
+                src={mountains3}
+                alt="mountain"
+              />
+              <img
+                className="photoGalleryImage"
+                src={mountains4}
+                alt="mountain"
+              />
             </div>
           </div>
         </main>
