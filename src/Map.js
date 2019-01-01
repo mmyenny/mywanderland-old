@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import US-Map3 from './Images/US'
+import US_Map3 from './images/US-map3.png'
+import beach from './images/beach1.jpeg'
 
 class Map extends Component {
   render() {
@@ -14,7 +15,7 @@ class Map extends Component {
               <i class="fas fa-map-pin" />
             </button>
           </div>
-          <img class="map" src="" alt="US map" />
+          <img class="map" src={US_Map3} alt="US map" />
         </main>
       </div>
     )
