@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import US_Map3 from './images/US-map3.png'
+import Pin from './images/pin.png'
 
-class Map extends Component {
+class Pinnedmap extends Component {
   render() {
     return (
       <div>
@@ -15,10 +16,13 @@ class Map extends Component {
             </button>
           </div>
           <img className="map" src={US_Map3} alt="US map" />
+          <img className="pin" src={Pin} alt="pin" />
+          <img className="pin1" src={Pin} alt="pin" />
+          <img className="pin2" src={Pin} alt="pin" />
         </main>
       </div>
     )
   }
 }
 
-export default Map
+export default Pinnedmap

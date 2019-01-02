@@ -283,10 +283,13 @@ p {
 img.photoAlbumPreview {
   max-height: 100px;
   max-width: 100px;
+  margin-top: 5px;
 }
 
 .pinPopUp button {
-  margin: 5px;
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
 }
 
 /* photo gallery page */
@@ -318,7 +321,7 @@ main.photoGallery {
 }
 
 .profileBar button {
-  width: 8rem;
+  width: 100px;
 }
 
 div.photoGallerySection {
@@ -351,4 +354,23 @@ img.photoGalleryImage {
   margin: 2px;
   max-height: 100px;
   max-width: 125px;
+}
+
+/* pinned map page */
+
+.pin {
+  margin-top: -150px;
+  width: 45px;
+}
+
+.pin1 {
+  margin-top: -150px;
+  margin-right: 200px;
+  width: 45px;
+}
+
+.pin2 {
+  margin-top: -10px;
+  margin-left: 300px;
+  width: 45px;
 }

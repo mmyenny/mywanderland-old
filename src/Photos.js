@@ -26,7 +26,6 @@ class Photos extends Component {
           <div className="photoGallerySection">
             <h4>Summer 2017</h4>
             <img className="photoPlus" src={plus_circle} alt="plus-circle" />
-
             <div className="photosGalleryImages">
               <img className="photoGalleryImage" src={beach1} alt="beach" />
               <img className="photoGalleryImage" src={beach2} alt="beach" />
