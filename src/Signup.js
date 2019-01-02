@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import camera from './images/camera.jpeg'
+import plus_circle from './images/plus-circle.png'
 
 class Signup extends Component {
   render() {
@@ -9,7 +10,8 @@ class Signup extends Component {
         <main className="signUpPage">
           <h1>MyWanderland</h1>
           <div className="signUp">
-            <img src={camera} alt="profile" />
+            <img className="camera" src={camera} alt="profile" />
+            <img className="plus" src={plus_circle} alt="plus-circle" />
             <input placeholder="Full name" /> <input placeholder="Email" />
             <input placeholder="Username" /> <input placeholder="Password" />
             <button>Sign up</button>

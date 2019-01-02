@@ -97,11 +97,19 @@ div.logIn {
   border-radius: 10px;
 }
 
-.logIn img {
+.camera {
   width: 70px;
   border-radius: 50%;
   margin-top: -45px;
   margin-bottom: 10px;
+}
+
+.plus {
+  width: 20px;
+  border-radius: 50%;
+  margin-top: -25px;
+  margin-right: -43px;
+  margin-bottom: 5px;
 }
 
 .logIn input {
@@ -219,13 +227,6 @@ div.signUp {
   border-radius: 10px;
 }
 
-.signUp img {
-  width: 70px;
-  border-radius: 50%;
-  margin-top: -45px;
-  margin-bottom: 10px;
-}
-
 .signUp input {
   margin-top: 5px;
   outline-color: #338be6;
@@ -297,20 +298,20 @@ main.photoGallery {
   border-radius: 5px;
 }
 
-.profileBar img {
+.profileImage {
   width: 70px;
   border-radius: 50%;
   margin: 10px 0 0 10px;
 }
 
-.profileBar h4 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 550;
+.profilePlus {
+  border-radius: 50%;
+  width: 20px;
+  margin-left: -20px;
+  margin-bottom: -5px;
 }
 
-.photoGallery h4 {
-  text-align: center;
+.profileBar h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 550;
@@ -325,6 +326,18 @@ div.photoGallerySection {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.photoGallery h4 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.photoPlus {
+  border-radius: 50%;
+  width: 20px;
 }
 
 div.photosGalleryImages {

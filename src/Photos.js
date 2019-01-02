@@ -8,6 +8,7 @@ import mountains1 from './images/mountains1.jpeg'
 import mountains2 from './images/mountains2.jpeg'
 import mountains3 from './images/mountains3.jpeg'
 import mountains4 from './images/mountains4.jpeg'
+import plus_circle from './images/plus-circle.png'
 
 class Photos extends Component {
   render() {
@@ -17,12 +18,15 @@ class Photos extends Component {
         {/* <input type="file" /><input /> */}
         <main className="photoGallery">
           <div className="profileBar">
-            <img src={camera} alt="profile" />
+            <img className="profileImage" src={camera} alt="profile" />
+            <img className="profilePlus" src={plus_circle} alt="plus-circle" />
             <h4>Michelle Yenny</h4>
             <button>Create Album</button>
           </div>
           <div className="photoGallerySection">
             <h4>Summer 2017</h4>
+            <img className="photoPlus" src={plus_circle} alt="plus-circle" />
+
             <div className="photosGalleryImages">
               <img className="photoGalleryImage" src={beach1} alt="beach" />
               <img className="photoGalleryImage" src={beach2} alt="beach" />
@@ -30,6 +34,7 @@ class Photos extends Component {
               <img className="photoGalleryImage" src={beach4} alt="beach" />
             </div>
             <h4>Fall 2014</h4>
+            <img className="photoPlus" src={plus_circle} alt="plus-circle" />
             <div className="photosGalleryImages">
               <img
                 className="photoGalleryImage"
