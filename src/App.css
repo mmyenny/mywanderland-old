@@ -356,6 +356,20 @@ img.photoGalleryImage {
   max-width: 125px;
 }
 
+/* individual photo page */
+
+div.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+}
+
+.photo img {
+  margin: 5px;
+}
+
 /* pinned map page */
 
 .pin {
