@@ -364,10 +364,13 @@ div.photo {
   align-items: center;
   background: white;
   border-radius: 5px;
+  width: 500px;
+  margin: 20px;
 }
 
 .photo img {
   margin: 5px;
+  width: 450px;
 }
 
 /* pinned map page */
