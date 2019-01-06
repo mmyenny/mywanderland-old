@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import camera from './images/camera.jpeg'
 import plus_circle from './images/plus-circle.png'
 
@@ -13,12 +14,14 @@ class Login extends Component {
             <img className="camera" src={camera} alt="profile" />
             <img className="plus" src={plus_circle} alt="plus-circle" />
             <input placeholder="Username" /> <input placeholder="Password" />
-            <button>Log in</button>
+            <Link to="/Map">
+              <button>Log in</button>
+            </Link>
             <div className="logInOptions">
               <label for="Remember me" className="logInOptions">
                 <input id="Remember me" type="checkbox" /> Remember me
               </label>
-              <a href="#">Sign up here</a>
+              <Link to="/Signup">Sign up here</Link>
             </div>
           </div>
           <div className="logInOr">

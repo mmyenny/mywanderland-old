@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import US_Map3 from './images/US-map3.png'
 
 class Map extends Component {

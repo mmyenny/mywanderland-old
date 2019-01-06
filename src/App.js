@@ -15,8 +15,11 @@ class App extends Component {
     return (
       <Router>
         <div>
+          <canvas />
           <Route path="/" exact component={Login} />
           <Route path="/Login/" component={Login} />
+          <Route path="/Signup/" component={Signup} />
+          <Route path="/Map/" component={Map} />
         </div>
       </Router>
     )
