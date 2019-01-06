@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import x from './images/x.png'
 import camera from './images/camera.jpeg'
 import beach1 from './images/beach1.jpeg'
 import beach2 from './images/beach2.jpeg'
@@ -17,7 +18,12 @@ class Photos extends Component {
       <div>
         <canvas />
         {/* <input type="file" /><input /> */}
-        <main className="photoGallery">
+        <Link to="/Map">
+          <div className="x">
+            <img src={x} alt="x" />
+          </div>
+        </Link>
+        <main className="photoGalleryPage">
           <div className="profileBar">
             <img className="profileImage" src={camera} alt="profile" />
             <img className="profilePlus" src={plus_circle} alt="plus-circle" />

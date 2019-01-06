@@ -15,7 +15,9 @@ class Signup extends Component {
             <img className="plus" src={plus_circle} alt="plus-circle" />
             <input placeholder="Full name" /> <input placeholder="Email" />
             <input placeholder="Username" /> <input placeholder="Password" />
-            <button>Sign up</button>
+            <Link to="/Map">
+              <button>Sign up</button>
+            </Link>
             <Link to="/Login">Have an account? Log in</Link>
           </div>
           <div className="logInOr">
