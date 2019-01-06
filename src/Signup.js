@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import camera from './images/camera.jpeg'
 import plus_circle from './images/plus-circle.png'
 
@@ -15,6 +16,7 @@ class Signup extends Component {
             <input placeholder="Full name" /> <input placeholder="Email" />
             <input placeholder="Username" /> <input placeholder="Password" />
             <button>Sign up</button>
+            <Link to="/Login">Have an account? Log in</Link>
           </div>
           <div className="logInOr">
             <div className="logInOrLine" />

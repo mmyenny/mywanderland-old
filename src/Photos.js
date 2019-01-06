@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import camera from './images/camera.jpeg'
 import beach1 from './images/beach1.jpeg'
 import beach2 from './images/beach2.jpeg'
