@@ -39,16 +39,22 @@ class Photos extends Component {
           </div>
 
           <div className="photoGallerySection">
-            <h4>Summer 2017</h4>
-            <img className="photoPlus" src={plus_circle} alt="plus-circle" />
+            <h4>
+              Summer 2017{' '}
+              <img className="photoPlus" src={plus_circle} alt="plus-circle" />
+            </h4>
             <div className="photosGalleryImages">
-              <img className="photoGalleryImage" src={beach1} alt="beach" />
+              <Link to="/Photo">
+                <img className="photoGalleryImage" src={beach1} alt="beach" />
+              </Link>
               <img className="photoGalleryImage" src={beach2} alt="beach" />
               <img className="photoGalleryImage" src={beach3} alt="beach" />
               <img className="photoGalleryImage" src={beach4} alt="beach" />
             </div>
-            <h4>Fall 2014</h4>
-            <img className="photoPlus" src={plus_circle} alt="plus-circle" />
+            <h4>
+              Fall 2014{' '}
+              <img className="photoPlus" src={plus_circle} alt="plus-circle" />
+            </h4>
             <div className="photosGalleryImages">
               <img
                 className="photoGalleryImage"

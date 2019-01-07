@@ -381,8 +381,8 @@ div.photosGalleryImages {
 
 img.photoGalleryImage {
   margin: 2px;
-  max-height: 100px;
-  max-width: 125px;
+  height: 100px;
+  width: 125px;
 }
 
 /* individual photo page */
@@ -405,20 +405,19 @@ div.photo {
 /* pinned map page */
 
 .pin {
-  margin-top: -150px;
+  margin-top: -170px;
+  margin-right: 120px;
   width: 45px;
 }
 
 .pin1 {
-  margin-bottom: -150px;
-  margin-right: 100px;
+  margin-top: -200px;
+  margin-right: 200px;
   width: 45px;
-  background-color: blue;
 }
 
 .pin2 {
-  margin-top: 20px;
-  margin-left: 250px;
+  margin-top: -100px;
+  margin-left: 200px;
   width: 45px;
-  background-color: green;
 }

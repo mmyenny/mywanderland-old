@@ -18,7 +18,9 @@ class Pinnedmap extends Component {
             </button>
           </div>
           <img className="map" src={US_Map3} alt="US map" />
-          <img className="pin" src={Pin} alt="pin" />
+          <Link to="/Photos">
+            <img className="pin" src={Pin} alt="pin" />
+          </Link>
           <img className="pin1" src={Pin} alt="pin" />
           <img className="pin2" src={Pin} alt="pin" />
         </main>
