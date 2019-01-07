@@ -303,12 +303,6 @@ img.photoAlbumPreview {
 
 /* photo gallery page */
 
-.x {
-  display: flex;
-  flex-direction: row-reverse;
-  background-color: #338be6;
-}
-
 .x img {
   width: 15px;
   height: 15px;
@@ -320,6 +314,12 @@ main.photoGalleryPage {
   flex-wrap: wrap;
   background: white;
   border-radius: 5px;
+}
+
+.topBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .profileBar {
@@ -410,13 +410,15 @@ div.photo {
 }
 
 .pin1 {
-  margin-top: -150px;
-  margin-right: 200px;
+  margin-bottom: -150px;
+  margin-right: 100px;
   width: 45px;
+  background-color: blue;
 }
 
 .pin2 {
-  margin-top: -10px;
-  margin-left: 300px;
+  margin-top: 20px;
+  margin-left: 250px;
   width: 45px;
+  background-color: green;
 }

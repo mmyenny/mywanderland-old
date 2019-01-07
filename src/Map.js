@@ -11,9 +11,11 @@ class Map extends Component {
           <h1>MyWanderland</h1>
           <div className="inputBox">
             <input placeholder="Enter City, State" />
-            <button>
-              <i className="fas fa-map-pin" />
-            </button>
+            <Link to="/Pinnedmap">
+              <button>
+                <i className="fas fa-map-pin" />
+              </button>
+            </Link>
           </div>
           <img className="map" src={US_Map3} alt="US map" />
         </main>

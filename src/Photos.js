@@ -18,18 +18,26 @@ class Photos extends Component {
       <div>
         <canvas />
         {/* <input type="file" /><input /> */}
-        <Link to="/Map">
-          <div className="x">
-            <img src={x} alt="x" />
-          </div>
-        </Link>
+
         <main className="photoGalleryPage">
-          <div className="profileBar">
-            <img className="profileImage" src={camera} alt="profile" />
-            <img className="profilePlus" src={plus_circle} alt="plus-circle" />
-            <h4>Michelle Yenny</h4>
-            <button>Create Album</button>
+          <div className="topBar">
+            <div className="profileBar">
+              <img className="profileImage" src={camera} alt="profile" />
+              <img
+                className="profilePlus"
+                src={plus_circle}
+                alt="plus-circle"
+              />
+              <h4>Michelle Yenny</h4>
+              <button>Create Album</button>
+            </div>
+            <Link to="/Map">
+              <div className="x">
+                <img src={x} alt="x" />
+              </div>
+            </Link>
           </div>
+
           <div className="photoGallerySection">
             <h4>Summer 2017</h4>
             <img className="photoPlus" src={plus_circle} alt="plus-circle" />
